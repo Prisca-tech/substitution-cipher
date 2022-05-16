@@ -12,7 +12,10 @@ def getInput():
 
 
 def instantiate():
-    pass
+    x = getInput()
+    print("What is your preferred number of character jumps? ")
+    jumps = int(input( ))
+    return jumps
 
 def encrypt():
     pass
@@ -38,7 +41,8 @@ print('''
 5. History
 ''')
 
-choice = int(input("Enter your the number that corresponds with the task you want to perform"))
+print("Enter your the number that corresponds with the task you want to perform ")
+choice = int(input( ))
 
 task = [instantiate, encrypt, decrypt, reset, history]
 
