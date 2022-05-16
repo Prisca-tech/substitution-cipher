@@ -4,30 +4,31 @@ def getName():
     print("Hello, name")
     return name
     
-    def getInput():
+
+
+def getInput():
+    x = str(input( ))
+    return x
+
+
+def instantiate():
+    pass
+
+def encrypt():
+    pass
+
+def decrypt():
+    pass
+
+def reset():
+    pass
+
+def history():
+    pass
 
   
 
-    def instantiate():
-        x = getInput()
-        print("Set encryption parameter: \n What is your prefered number of character jumps? ")
-        jumps = int(input( ))
-    
-
-    def encrypt():
-        x = getInput()
-
-    def decrypt():
-      x = getInput()
-
-
-    def reset():
-        x = getInput()
-
-    def history():
-        x = getInput()
-
-   # to display a menu
+# to display a menu
  
 print('''
 1. Instantiate encryption parameters
